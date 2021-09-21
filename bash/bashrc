@@ -1,0 +1,10 @@
+alias c=clear
+alias ll="ls -la"
+# use vi mode on bash ( ESC = ctrl [ )
+set -o vi
+#############################################
+# HISTORY
+# don't save dups and starting with spaces
+HISTCONTROL=ignoreboth
+# how many lines to save
+HISTFILESIZE=10000
