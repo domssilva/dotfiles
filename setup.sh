@@ -4,3 +4,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # install hacking tools
 bash ./get_hacking_tools.sh
+
+# create folder if doesn't exist for tools APIs
+mkdir /root/.config/subfinder
+touch /root/.config/subfinder/provider-config.yaml
