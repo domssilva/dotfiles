@@ -14,7 +14,8 @@ go install -v github.com/tomnomnom/anew@latest
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/KathanP19/Gxss@latest # verify if parameters in url reflect
-go install github.com/projectdiscovery/katana/cmd/katana@latest # crawler
+go install github.com/projectdiscovery/katana/cmd/katana@latest # web crawler
+go install github.com/lc/gau/v2/cmd/gau@latest # get cached paths
 
 # rust tools
 # sudo apt install -y feroxbuster
